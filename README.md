@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
-![another-todoapp.gif](https://github.com/tiagovalverde/another-todolist-app/blob/master/src/index.html)
+![another-todoapp.gif](https://github.com/tiagovalverde/another-todolist-app/blob/master/app-screenshot.gif)
 
-## Development server
+## Development server 
 
 Run `npm install` to install dependencies.
 
