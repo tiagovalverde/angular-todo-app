@@ -1,0 +1,16 @@
+{
+  "tasks": {
+    "-L7COOaI7PjZSU7TCoqS": {
+      "isChecked": true,
+      "title": "Meeting with team"
+    },
+    "-L7CPZV26zYqwHRERGTL": {
+      "isChecked": false,
+      "title": "Call John"
+    },
+    "-L7CPbRb2Fo71X90TNgl": {
+      "isChecked": false,
+      "title": "Study for Operating Systems"
+    }
+  }
+}

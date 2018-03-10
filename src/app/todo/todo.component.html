@@ -1,0 +1,29 @@
+
+  <main role="main" class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">Another To Do List App</h1>
+        <p class="lead text-center">An Angular app that stores to do's on Firebase in realtime.</p>
+      </div>
+  </main>
+
+  <div class="input-group">
+      <input type="text" class="form-control" #taskTitle>
+      <div class="input-group-addon hover-cursor" (click)="onAdd(taskTitle)">
+        <i class="fa fa-plus-circle fa-2x"> </i>
+      </div>
+    </div>
+
+    <div style="margin:5px 0px">
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let task of todolistArray">
+            <span class="hover-cursor" [class.text-success]="task.isChecked" (click)="onCheck(task.$key,task.isChecked)">
+              <i class="fa fa-lg" [ngClass]="task.isChecked?'fa-check-circle-o':'fa-circle-thin'"></i>
+            </span>
+            {{task.title}}
+            <span class="hover-cursor text-danger pull-right" (click)="onDelete(task.$key)">
+              <i class="fa fa-trash-o fa-lg"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+ 
